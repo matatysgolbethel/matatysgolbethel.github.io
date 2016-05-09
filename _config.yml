@@ -1,6 +1,6 @@
 full_rebuild: true
-name: Docster Documentation
-author: DigitalMind
+name: YB Documentation
+author: Mat
 version: V 1.0
 encoding: utf-8
 defaults:
