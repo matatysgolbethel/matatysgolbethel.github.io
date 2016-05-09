@@ -1,19 +1,35 @@
-# Docster
-![docster preview](https://raw.githubusercontent.com/DigitalMindCH/docster-jekyll-theme/gh-pages/img/docster_preview.jpg)
+# Landing Page Jekyll theme
 
-## simple and easy
-That's how we would describe working with docster.
-We first created it, when we needed an index file for a theme documentation. jekyll offered collections which made the organization into smaller chunks of documentation optimal. Especially because the collections did not generate outputs for themselves.
-This theme was created to generate an organized output. It does not require any plugins, which means you can host on GitHub without much effort.
+Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
-## Features
-* Nice syntax highlighting
-* dynamic multi-level navigation
-* Sass stylesheets
+## How to use
+ - Place a image in `/img/services/`
+ - Create posts to display your services. Use the follow as an example:
 
-### Documentation
-We don't believe in delivering Code without explanation. Especially not for a documentation theme. So the [Demo](http://digitalmind.ch/themes/docster-jekyll-theme/demo/) doubles as the documentation for Docster, that should help you set up your own docs without any problems.
+```txt
+---
+layout: default
+img: ipad.png
+category: Services
+title: The service title
+---
+The description of this service
+```
 
-### Feedback, Wishes, Problems
-If you run into any trouble or have a request please do so by opening up an issue on the theme's GitHub page.
-If you just want to give us a general feedback feel free to [contact us!](http://digitalmind.ch/contact/)
+## Demo
+View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+
+===
+
+For more Jekyll details, read [documentation](http://jekyllrb.com/).
+This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
+
+## License
+The contents of this repository are licensed under the [Apache
+2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+## Version
+1.0.1
