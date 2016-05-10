@@ -1,34 +1,24 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-url: http://matatysgolbethel.github.io
-title: YB
-email: your-email@domain.com
-author: YB
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2016 Ysgol Bethel. All Rights Reserved.'
-credits: ''
+# Permalinks
+permalink:        pretty
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# Setup
+title:            Ysgol Bethel
+tagline:          'Dogfennau / Documents'
+description:      'Contents'
+url:              http://www.xyz.com
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+author:
+  name:           'YB'
+  url:            ''
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
+paginate:         5
 
-social:
-  #- title: twitter
-  #  url: https://twitter.com/SBootstrap
-  #- title: github
-  #  url: https://github.com/IronSummitMedia/startbootstrap
-  #- title: linkedin
-  #  url: 
+# Custom vars
+version:          2.0.0
+
+#github:
+#  repo:           https://github.com/poole/lanyon
