@@ -27,8 +27,8 @@ permalink: pretty
 
 social:
   - title: Llawllyfr / Handbook
-    url: #handbook
+    url: '#handbook'
   - title: Polisiau / Policies
-    url: 
+    url: '#policies'
   - title: E-Diogelwch / E-Safety
-    url: 
+    url: '#esafety'
