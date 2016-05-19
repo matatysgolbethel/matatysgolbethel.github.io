@@ -6,4 +6,9 @@ title: E-Diogelwch / E-Safety
 section_id: esafety
 description: |
 ---
-	This is where the e safety stuff will go
+This is where the e safety stuff will go
+<ul class="list-inline">
+    <li>
+        <a href="#home">Catref / Home</a>
+    </li>
+</ul>

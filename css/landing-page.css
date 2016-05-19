@@ -164,3 +164,27 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.navbar {
+  text-align: Center;
+}
+
+.navbar .desktop {
+    display: none !important;
+}
+
+.navbar .btn-navbar {
+    display: inline-block;
+}
+
+.nav-wrap.mobile.collapse.in {
+  display: block;
+}
+
+.nav-wrap.mobile.collapse {
+  display: none;
+}
+
+.nav-wrap.mobile {
+  display: block;
+}
