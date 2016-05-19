@@ -1,32 +1,28 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: 
+# Site settings
 title: Ysgol Bethel
-email: 
-author: YB
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: '2016 Ysgol Bethel'
-credits: 
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# User setting
+owner: YB
+email:
+facebook_username:
+twitter_username:
+github_username:
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone:
+copyright: Ysgol Bethel
+
+# API settings
+google_api_key:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: Polisiau / Policies
-    url: '#policies'
-  - title: E-Diogelwch / E-Safety
-    url: '#esafety'
