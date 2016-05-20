@@ -10,15 +10,16 @@ url: "" # the base hostname & protocol for your site
 
 # User setting
 owner:
-email:
+email: NiaGuillemin@gwynedd.gov.uk
 facebook_username:
 twitter_username:
 github_username:
 address:
-  - line:
-  - line:
+  - line: Bethel
+  - line: Gwynedd
+  - line: LL55 1AX
   # Feel free to add more lines here 
-telephone:
+telephone: 01248 670663
 copyright: Ysgol Bethel
 
 # API settings
