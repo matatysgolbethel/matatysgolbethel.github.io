@@ -1,6 +1,5 @@
 # Site settings
 title: Ysgol Bethel
-email:
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -22,6 +21,65 @@ address:
 telephone: 01248 670663
 copyright: Ysgol Bethel
 
+sencoordinator: Mr Dylan Parry
+sendesignatedgovernor: Mrs Carol Owen
+chairpersongovernors: Parch/Rev Marcus Robinson
+clerkgovernors: Mrs Sasha Alcock
+schoolsecretary: Mrs Sasha Alcock
+
+teachingstaff:
+  - { name: 'Mrs Nia Guillemin', title: 'Pennaeth / Headteacher'}
+  - { name: 'Mr Dylan Parry', title: 'Dirprwy / Deputy'}
+  - { name: 'Mrs Sharon Parry', title: 'Athrawes ddosbarth / Class Teacher'}
+  - { name: 'Mrs Nia G Elwyn', title: 'Athrawes ddosbarth / Class Teacher'}
+  - { name: 'Miss Wendy Hebenstreit', title: 'Athrawes ddosbarth / Class Teacher'}
+  - { name: 'Mrs Donna Owen', title: 'Athrawes ddosbarth / Class Teacher'}
+  - { name: 'Mrs Nia Gosset', title: 'Athrawes ddosbarth / Class Teacher'}
+
+teachingassistants:
+  - { name: 'Mrs Glenda Owen', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
+  - { name: 'Mrs Joyce Gaffey', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
+  - { name: 'Miss Nia Wyn Thomas', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
+  - { name: 'Miss Sian Hughes', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
+  - { name: 'Mrs Donna Roberts', title: 'Cymhorthydd AAA / SEN Assistant'}
+  - { name: 'Miss Manon Wyn Jones', title: 'Cymhorthydd AAA / SEN Assistant'}
+  - { name: 'Miss Manon Bryn Jones', title: 'Cymhorthydd AAA / SEN Assistant'}
+  - { name: 'Miss Leah Jones', title: 'Cymhorthydd AAA / SEN Assistant'}
+  - { name: 'Mrs Caryl Williams', title: 'Cymhorthydd AAA / SEN Assistant'}
+  - { name: 'Mrs Caryl Davies', title: 'Cymhorthydd AAA / SEN Assistant'}
+  - { name: 'Mrs Ruth Mowl', title: 'Cymhorthydd AAA / SEN Assistant'}
+
+peripateticteachers:
+  - { name: 'Mrs Margaret Jones', title: 'Pres / Brass'}
+  - { name: 'Mrs Rebecca Bateson', title: 'Chwythbrennau / Woodwind'}
+
+
+ancillarystaff:
+  - {name: 'Mrs Delyth Williams', title: 'Gofalwraig & Glanhawraig/Caretaker & Cleaner'}
+  - {name: 'Mrs Alys Peters', title: 'Glanhawraig / Cleaner'}
+  - {name: 'Mrs Nia Thomas-Humphreys', title: 'Cogyddes / Cook'}
+  - {name: 'Mrs Valerie Owen', title: 'Cynorthwywraig Cegin / Kitchen Assistant'}
+  - {name: 'Mrs Sasha Alcock', title: 'Clerc Arian Cinio / Lunch time clerk'}
+  - {name: 'Mrs Helen Williams', title: 'Goruchwylwraig Cinio / Lunchtime Supervisor'}
+  - {name: 'Mrs Helen Williams', title: 'Swyddog Croesi Ffordd / Road Crossing Officer'}
+
+
+governors:
+  - { name: 'Mr Merfyn Morris', appointed: 'AALL/LEA', expires: 'Awst/Aug 2016' }
+  - { name: 'Cyng./Cllr. Sion Jones', appointed: 'AALL/LEA', expires: 'Mai/May 2017' }
+  - { name: 'Mrs Anne Elis (Is Gadeirydd)', appointed: 'AALL/LEA', expires: 'Awst/Aug 2016' }
+  - { name: 'Mr Richard Llwyd Jones', appointed: 'Cyngor Cymuned', expires: 'Awst/Aug 2016' }
+  - { name: 'Mrs Nia Llwyd Lewis', appointed: 'Rhieni/Parents', expires: 'Awst/Aug 2015' }
+  - { name: 'Miss Ellen Lloyd', appointed: 'Rhieni/Parents', expires: 'Awst/Aug 2017' }
+  - { name: 'Mrs Eleri Moss', appointed: 'Rhieni/Parents', expires: 'Awst/Aug 2016' }
+  - { name: 'Mrs Yvonne Jones', appointed: 'Rhieni/Parents', expires: 'Awst/Aug 2016' }
+  - { name: 'Mrs Carol Owen', appointed: 'Cymunedol/Community', expires: 'Awst/Aug 2016' }
+  - { name: 'Parch/Rev Marcus Robinson', appointed: 'Cymunedol/Community', expires: 'Awst/Aug 2016' }
+  - { name: 'Mr Llion Williams', appointed: 'Cymunedol/Community', expires: 'Awst/Aug 2016' }
+  - { name: 'Mrs Nia Gwawr Elwyn', appointed: 'Athrawon/Teachers', expires: 'Awst/Aug 2017' }
+  - { name: 'Mrs Joyce Gaffey', appointed: 'Staff Ategol/Ancillary Staff', expires: 'Awst/Aug 2018' }
+  - { name: 'Mrs Nia Guillemin', appointed: 'Pennaeth/Headteacher', expires: '-/-' }
+  - { name: 'Mr Dylan Parry', appointed: 'Dirprwy Bennaeth/Deputy Head', expires: '-/-' }
 
 # API settings
 google_api_key:

@@ -5,58 +5,43 @@
         <h2 class="lead">Staff</h2>
           <table class="table">
           <thead><tr><th><strong>Teaching Staff</strong></th></thead>
-          <tr><td class="text-left">Mrs Nia Guillemin</td><td class="text-left">Pennaeth / Headteacher</td></tr>
-          <tr><td class="text-left">Mr Dylan Parry</td><td class="text-left">Dirprwy / Deputy</td></tr>
-          <tr><td class="text-left">Mrs Sharon Parry</td><td class="text-left">Athrawes ddosbarth / Class Teacher</td></tr>
-          <tr><td class="text-left">Mrs Nia G Elwyn</td><td class="text-left">Athrawes ddosbarth / Class Teacher</td></tr>
-          <tr><td class="text-left">Miss Wendy Hebenstreit</td><td class="text-left">Athrawes ddosbarth / Class Teacher</td></tr>
-          <tr><td class="text-left">Mrs Donna Owen</td><td class="text-left">Athrawes ddosbarth / Class Teacher</td></tr>
-          <tr><td class="text-left">Mrs Nia Gosset</td><td class="text-left">Athrawes ddosbarth / Class Teacher</td></tr>
+          {% for tstaff in site.teachingstaff %}
+            <tr><td class="text-left">{{ tstaff.name }}</td><td class="text-left">{{ tstaff.title }}</td></tr>
+          {% endfor %}
           </table>
           <br/>
           <a href="#top">Catref / Home</a>
           <br/><hr>
           <table class="table">
           <thead><tr><th><strong>Cymorthyddion / Nursery Assistants</strong></th></thead>
-          <tr><td class="text-left">Mrs Glenda Owen</td><td class="text-left">Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant</td></tr>
-          <tr><td class="text-left">Mrs Joyce Gaffey</td><td class="text-left">Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant</td></tr>
-          <tr><td class="text-left">Miss Nia Wyn Thomas</td><td class="text-left">Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant</td></tr>
-          <tr><td class="text-left">Miss Sian Hughes</td><td class="text-left">Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant</td></tr>
-          <tr><td class="text-left">Mrs Donna Roberts</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
-          <tr><td class="text-left">Miss Manon Wyn Jones</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
-          <tr><td class="text-left">Miss Manon Bryn Jones</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
-          <tr><td class="text-left">Miss Leah Jones</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
-          <tr><td class="text-left">Mrs Caryl Williams</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
-          <tr><td class="text-left">Mrs Caryl Davies</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
-          <tr><td class="text-left">Mrs Ruth Mowl</td><td class="text-left">Cymhorthydd AAA / SEN Assistant</td></tr>
+          {% for ta in site.teachingassistants %}
+            <tr><td class="text-left">{{ ta.name }}</td><td class="text-left">{{ ta.title }}</td></tr>
+          {% endfor %}
           </table>
           <br/>
           <a href="#top">Catref / Home</a>
           <br/><hr>
           <table class="table">
           <thead><tr><th><strong>Ysgrifenyddes / Secretary</strong></th></thead>
-          <tr><td class="text-left">Mrs Sasha Alcock </td><td class="text-left">(ar gael / available 8:30 - 1:30)</td></tr>
+          <tr><td class="text-left">{{ site.schoolsecretary }}</td><td class="text-left">8.30am - 1.30pm</td></tr>
           </table>
           <br/>
           <a href="#top">Catref / Home</a>
           <br/><hr>
           <table class="table">
           <thead><tr><th><strong>Athrawon Cerdd Teithiol / Peripatetic Music Teachers</strong></th></thead>
-          <tr><td class="text-left">Mrs Margaret Jones</td><td class="text-left">Pres / Brass</td></tr>
-          <tr><td class="text-left">Mrs Rebecca Bateson</td><td class="text-left">Chwythbrennau / Woodwind</td></tr>
+          {% for pt in site.peripateticteachers %}
+            <tr><td class="text-left">{{ pt.name }}</td><td class="text-left">{{ pt.title }}</td></tr>
+          {% endfor %}
           </table>
           <br/>
           <a href="#top">Catref / Home</a>
           <br/><hr>
           <table class="table">
           <thead><tr><th><strong>Ategol / Ancillary</strong></th></thead>
-          <tr><td class="text-left">Mrs Delyth Williams</td><td class="text-left">Gofalwraig & Glanhawraig/Caretaker & Cleaner</td></tr>
-          <tr><td class="text-left">Mrs Alys Peters</td><td class="text-left">Glanhawraig / Cleaner</td></tr>
-          <tr><td class="text-left">Mrs Nia Thomas-Humphreys</td><td class="text-left">Cogyddes / Cook</td></tr>
-          <tr><td class="text-left">Mrs Valerie Owen</td><td class="text-left">Cynorthwywraig Cegin / Kitchen Assistant</td></tr>
-          <tr><td class="text-left">Mrs Sasha Alcock</td><td class="text-left">Clerc Arian Cinio / Lunch time clerk</td></tr>
-          <tr><td class="text-left">Mrs Helen Williams</td><td class="text-left">Goruchwylwraig Cinio / LunchtimeSupervisor
-Swyddog Croesi Ffordd / Road Crossing Officer</td></tr>
+          {% for ancilstaff in site.ancillarystaff %}
+            <tr><td class="text-left">{{ ancilstaff.name }}</td><td class="text-left">{{ ancilstaff.title }}</td></tr>
+          {% endfor %}
           </table>
           <br/>
           <a href="#top">Catref / Home</a>

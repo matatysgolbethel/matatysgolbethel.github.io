@@ -30,27 +30,15 @@ Parents will need to submit a petition in favor of holding a meeting.<br/><br/>
         </div>
         <br><br><a href="#top" onclick = $("#menu-close").click();><p color="white">Catref / Home</p></a><br><br>
         <table class="table">
-          <tr><td class="text-left"><b>Cadeirydd y Llywodraethwyr / Chairperson of Governors</b></td><td class="text-left">Parch/Rev Marcus Robinson</td></tr>
-          <tr><td class="text-left"><b>Clerc y Llywodraethwyr/Clerk of Governors</b></td></td><td class="text-left">Mrs Sasha Alcock</td></tr>
+          <tr><td class="text-left"><b>Cadeirydd y Llywodraethwyr / Chairperson of Governors</b></td><td class="text-left">{{ site.chairpersongovernors }}</td></tr>
+          <tr><td class="text-left"><b>Clerc y Llywodraethwyr/Clerk of Governors</b></td></td><td class="text-left">{{ site.clerkgovernors }}</td></tr>
         </table>
         <hr>
         <table class="table">
           <thead><tr><th><strong>Enw / Name</strong></th><th ><strong>Penodwyd gan / Appointed by</strong></th><th><strong>Gorffen / Finishing</strong></th></thead>
-          <tr><td class="text-left">Mr Merfyn Morris</td><td class="text-left">AALL/LEA</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Cyng./Cllr. Sion Jones</td><td class="text-left">AALL/LEA</td><td class="text-left">Mai/May 2017</td></tr>
-          <tr><td class="text-left">Mrs Anne Elis (Is Gadeirydd)</td><td class="text-left">AALL/LEA</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Mr Richard Llwyd Jones</td><td class="text-left">Cyngor Cymuned</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Mrs Nia Llwyd Lewis</td><td class="text-left">Rhieni/Parents</td><td class="text-left">Awst/Aug 2015</td></tr>
-          <tr><td class="text-left">Miss Ellen Lloyd</td><td class="text-left">Rhieni/Parents</td><td class="text-left">Awst/Aug 2017</td></tr>
-          <tr><td class="text-left">Mrs Eleri Moss</td><td class="text-left">Rhieni/Parents</td><td class="text-left">Ebrill/April 2016</td></tr>
-          <tr><td class="text-left">Mrs Yvonne Jones</td><td class="text-left">Rhieni/Parents</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Mrs Carol Owen</td><td class="text-left">Cymunedol/Community</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Parch/Rev Marcus Robinson</td><td class="text-left">Cymunedol/Community</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Mr Llion Williams</td><td class="text-left">Cymunedol/Community</td><td class="text-left">Awst/Aug 2016</td></tr>
-          <tr><td class="text-left">Mrs Nia Gwawr Elwyn</td><td class="text-left">Athrawon/Teachers</td><td class="text-left">Awst/Aug 2017</td></tr>
-          <tr><td class="text-left">Mrs Joyce Gaffey</td><td class="text-left">Staff Ategol/Ancillary Staff</td><td class="text-left">Awst/Aug 2018</td></tr>
-          <tr><td class="text-left">Mrs Nia Guillemin</td><td class="text-left">Pennaeth/Headteacher</td><td class="text-left"> - / -</td></tr>
-          <tr><td class="text-left">Mr Dylan Parry</td><td class="text-left">Dirprwy Bennaeth</td><td class="text-left"> - / -</td></tr>
+          {% for governor in site.governors %}
+            <tr><td class="text-left">{{ governor.name }}</td><td class="text-left">{{ governor.appointed }}</td><td class="text-left">{{ governor.expires }}</td></tr>
+          {% endfor %}
         </table>
         <br><br>
         <a href="#top" onclick = $("#menu-close").click();><p color="white">Catref / Home</p></a>
