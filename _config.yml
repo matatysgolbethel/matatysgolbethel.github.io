@@ -31,8 +31,8 @@ schoolsecretary: Mrs Sasha Alcock
 teachingstaff:
   - { name: 'Mrs Nia Guillemin', title: 'Pennaeth / Headteacher'}
   - { name: 'Mr Dylan Parry', title: 'Dirprwy / Deputy'}
-  - { name: 'Mrs Sharon Parry', title: 'Athrawes ddosbarth / Class Teacher'}
   - { name: 'Mrs Nia G Elwyn', title: 'Athrawes ddosbarth / Class Teacher'}
+  - { name: 'Mrs Sharon Parry', title: 'Athrawes ddosbarth / Class Teacher'}
   - { name: 'Miss Wendy Hebenstreit', title: 'Athrawes ddosbarth / Class Teacher'}
   - { name: 'Mrs Donna Owen', title: 'Athrawes ddosbarth / Class Teacher'}
   - { name: 'Mrs Nia Gosset', title: 'Athrawes ddosbarth / Class Teacher'}
