@@ -23,7 +23,9 @@
           <br/><hr>
           <table class="table">
           <thead><tr><th><strong>Ysgrifenyddes / Secretary</strong></th></thead>
-          <tr><td class="text-left">{{ site.schoolsecretary }}</td><td class="text-left">8.30am - 1.30pm</td></tr>
+           {% for schoolsec in site.schoolsecretary %}
+            <tr><td class="text-left">{{ schoolsec.name }}</td><td class="text-left">{{ schoolsec.hours }}</td></tr>
+          {% endfor %}
           </table>
           <br/>
           <a href="#top">Catref / Home</a>

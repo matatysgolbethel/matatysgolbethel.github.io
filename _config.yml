@@ -26,7 +26,19 @@ sencoordinator: Mr Dylan Parry
 sendesignatedgovernor: Mrs Carol Owen
 chairpersongovernors: Parch/Rev Marcus Robinson
 clerkgovernors: Mrs Sasha Alcock
-schoolsecretary: Mrs Sasha Alcock
+
+schoolsecretary:
+  - {name: 'Mrs Sasha Alcock', hours: '8.30am - 1.30pm'}
+
+oursinweek:
+  - { section: 'Meithryn / Nursery', morning: '8.45 - 10.45', afternoon: '- / -' }
+  - { section: 'Babanod / Infants', morning: '8.45 - 11.30', afternoon: '12.30 - 2.50' }
+  - { section: 'Iau / Juniors', morning: '8.45 - 11.45', afternoon: '12.00 - 3.00' }
+
+totalhoursinweek:
+  - { section: 'Meithryn / Nursery', total: '2 awr y dydd / 2 hours per day' }
+  - { section: 'Babanod / Infants', total: '23.5 awr yr wythnos / hours a week' }
+  - { section: 'Iau / Juniors', total: '25.5 awr y wythnos / hours a week' }
 
 teachingstaff:
   - { name: 'Mrs Nia Guillemin', title: 'Pennaeth / Headteacher'}
@@ -38,10 +50,10 @@ teachingstaff:
   - { name: 'Mrs Nia Gosset', title: 'Athrawes ddosbarth / Class Teacher'}
 
 teachingassistants:
-  - { name: 'Mrs Glenda Owen', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
-  - { name: 'Mrs Joyce Gaffey', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
-  - { name: 'Miss Nia Wyn Thomas', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
-  - { name: 'Miss Sian Hughes', title: 'Cymhorthydd Cyfnod Sylfaen /Foundation Phase Assistant'}
+  - { name: 'Mrs Glenda Owen', title: 'Cymhorthydd Cyfnod Sylfaen / Foundation Phase Assistant'}
+  - { name: 'Mrs Joyce Gaffey', title: 'Cymhorthydd Cyfnod Sylfaen / Foundation Phase Assistant'}
+  - { name: 'Miss Nia Wyn Thomas', title: 'Cymhorthydd Cyfnod Sylfaen / Foundation Phase Assistant'}
+  - { name: 'Miss Sian Hughes', title: 'Cymhorthydd Cyfnod Sylfaen / Foundation Phase Assistant'}
   - { name: 'Mrs Donna Roberts', title: 'Cymhorthydd AAA / SEN Assistant'}
   - { name: 'Miss Manon Wyn Jones', title: 'Cymhorthydd AAA / SEN Assistant'}
   - { name: 'Miss Manon Bryn Jones', title: 'Cymhorthydd AAA / SEN Assistant'}
