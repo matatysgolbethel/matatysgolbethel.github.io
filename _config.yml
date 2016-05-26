@@ -27,6 +27,10 @@ sendesignatedgovernor: Mrs Carol Owen
 chairpersongovernors: Parch/Rev Marcus Robinson
 clerkgovernors: Mrs Sasha Alcock
 
+absencesstats:
+  - {year: '2013 / 2014', attendance: '96%', authorised: '4%', unauthorised: '0%'}
+
+
 schoolsecretary:
   - {name: 'Mrs Sasha Alcock', hours: '8.30am - 1.30pm'}
 

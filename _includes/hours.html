@@ -12,12 +12,11 @@
           </table>
           <h2 class="lead">Oriau i'r wythnos / Hours in a week</h2>
           <table class="table">
-          <thead><tr><th ><strong>Adran / Section</strong></th><th ><strong>Cyfanswm / Total</strong></th></thead>
+          <thead><th ><strong>Adran / Section</strong></th><th ><strong>Cyfanswm / Total</strong></th></thead>
           {% for totalhours in site.totalhoursinweek %}
             <tr><td class="text-left">{{ totalhours.section }}</td><td class="text-left">{{ totalhours.total }}</td></tr>
           {% endfor %}
           </table>
-          <br><br>
         <a href="#top" onclick = $("#menu-close").click();><p color="white">Catref / Home</p></a>
       </div>
     </div>

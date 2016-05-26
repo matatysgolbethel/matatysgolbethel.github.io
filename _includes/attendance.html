@@ -3,8 +3,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-      <h2 class="lead">Presenoldeb / Attendance</h2>
-        <div class="col-lg-6">
+        <h2 class="lead">Presenoldeb / Attendance</h2>
+      </div>
+      <div class="col-lg-6">
           Gan fod yr ysgol yn cychwyn am 8.45 y bore disgwylir i'ch plentyn fod yn yr ysgol i
 ddechrau ar ei g/waith erbyn hynny. Fe fydd aelod o staff yn yr ysgol i oruchwylio
 eich plentyn o 8.35 ymlaen. Nid yw’r ysgol yn gyfrifol am y plant cyn 8.35 y.b.
@@ -23,8 +24,8 @@ ar wyliau os oes unrhyw fodd o osgoi hyn.<br><br>
 
 Fe fydd y Corff Llywodraethol yn hysbysu rhieni'r ysgol yn ysgrifenedig o ganran
 absenoldeb y plant hefo a heb ganiatâd yn eu Hadroddiad Blynyddol i Rieni.<br>
-        </div>
-        <div class="col-lg-6">
+      </div>
+      <div class="col-lg-6">
 As school starts at 8.45 in the morning, your child is expected to be in school ready
 to commence his/her work by that time. A member of staff will be on the premises
 from 8.35 onwards to supervise your child. The school is not responsible for the
@@ -42,8 +43,18 @@ on family holidays if it can be at all avoided.<br><br>
 
 The Governing Body will furnish the parents of the school with a written percentage
 of absences with and without permission in their Annual Report to Parents.
-        </div>
-        <br><br>
+      </div>
+      <div class="col-lg-12 text-center">
+        <br><br><hr>
+        <h2 class="lead">Ystadegau / Statistics</h2>
+        <table class="table table-striped">
+          <thead><th><strong>Year</strong></th><th><strong>Presenoldeb / Attendance</strong></th><th><strong>Absenoldeb Awdurdodedig / Authorised Absences</strong></th><th><strong>Absenoldeb Anawdurdodedig / Unauthorised Absences</strong></th></thead>
+          {% for absence in site.absencesstats %}
+            <tr>
+              <td class="text-left">{{ absence.year }}</td><td class="text-center">{{ absence.attendance }}</td><td class="text-center">{{ absence.authorised }}</td><td class="text-center">{{ absence.unauthorised }}</td>
+            </tr>
+          {% endfor %}
+        </table>
         <a href="#top" onclick = $("#menu-close").click();><p color="white">Catref / Home</p></a>
       </div>
     </div>
