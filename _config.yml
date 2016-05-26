@@ -28,11 +28,11 @@ chairpersongovernors: Parch/Rev Marcus Robinson
 clerkgovernors: Mrs Sasha Alcock
 
 absencesstats:
-  - {year: '2013 / 2014', attendance: '96%', authorised: '4%', unauthorised: '0%'}
+  - { year: '2013 / 2014', attendance: '96%', authorised: '4%', unauthorised: '0%'}
 
 
 schoolsecretary:
-  - {name: 'Mrs Sasha Alcock', hours: '8.30am - 1.30pm'}
+  - { name: 'Mrs Sasha Alcock', hours: '8.30am - 1.30pm'}
 
 oursinweek:
   - { section: 'Meithryn / Nursery', morning: '8.45 - 10.45', afternoon: '- / -' }
