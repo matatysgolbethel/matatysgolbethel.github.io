@@ -26,10 +26,12 @@ sencoordinator: Mr Dylan Parry
 sendesignatedgovernor: Mrs Carol Owen
 chairpersongovernors: Parch/Rev Marcus Robinson
 clerkgovernors: Mrs Sasha Alcock
+childprotectioncoordinator: Mrs Nia Guillemin
+childprotectiongovernor: Mrs Carol Owen
+
 
 absencesstats:
   - { year: '2013 / 2014', attendance: '96%', authorised: '4%', unauthorised: '0%'}
-
 
 schoolsecretary:
   - { name: 'Mrs Sasha Alcock', hours: '8.30am - 1.30pm'}
@@ -70,7 +72,6 @@ peripateticteachers:
   - { name: 'Mrs Margaret Jones', title: 'Pres / Brass'}
   - { name: 'Mrs Rebecca Bateson', title: 'Chwythbrennau / Woodwind'}
 
-
 ancillarystaff:
   - {name: 'Mrs Delyth Williams', title: 'Gofalwraig & Glanhawraig/Caretaker & Cleaner'}
   - {name: 'Mrs Alys Peters', title: 'Glanhawraig / Cleaner'}
@@ -79,7 +80,6 @@ ancillarystaff:
   - {name: 'Mrs Sasha Alcock', title: 'Clerc Arian Cinio / Lunch time clerk'}
   - {name: 'Mrs Helen Williams', title: 'Goruchwylwraig Cinio / Lunchtime Supervisor'}
   - {name: 'Mrs Helen Williams', title: 'Swyddog Croesi Ffordd / Road Crossing Officer'}
-
 
 governors:
   - { name: 'Mr Merfyn Morris', appointed: 'AALL/LEA', expires: 'Awst/Aug 2016' }
