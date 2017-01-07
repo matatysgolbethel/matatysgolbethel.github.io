@@ -10,8 +10,8 @@
           {% endfor %}
           </table>
           <br/>
-          <a href="#top">Catref / Home</a>
-          <br/><hr>
+          {% include subject_spacer.html %}
+          <br/>
           <table class="table">
           <thead><tr><th><strong>Cymorthyddion / Nursery Assistants</strong></th></thead>
           {% for ta in site.teachingassistants %}
@@ -19,8 +19,8 @@
           {% endfor %}
           </table>
           <br/>
-          <a href="#top">Catref / Home</a>
-          <br/><hr>
+          {% include subject_spacer.html %}
+          <br/>
           <table class="table">
           <thead><tr><th><strong>Ysgrifenyddes / Secretary</strong></th></thead>
            {% for schoolsec in site.schoolsecretary %}
@@ -28,8 +28,8 @@
           {% endfor %}
           </table>
           <br/>
-          <a href="#top">Catref / Home</a>
-          <br/><hr>
+          {% include subject_spacer.html %}
+          <br/>
           <table class="table">
           <thead><tr><th><strong>Athrawon Cerdd Teithiol / Peripatetic Music Teachers</strong></th></thead>
           {% for pt in site.peripateticteachers %}
@@ -37,17 +37,15 @@
           {% endfor %}
           </table>
           <br/>
-          <a href="#top">Catref / Home</a>
-          <br/><hr>
+          {% include subject_spacer.html %}
+          <br/>
           <table class="table">
           <thead><tr><th><strong>Ategol / Ancillary</strong></th></thead>
           {% for ancilstaff in site.ancillarystaff %}
             <tr><td class="text-left">{{ ancilstaff.name }}</td><td class="text-left">{{ ancilstaff.title }}</td></tr>
           {% endfor %}
           </table>
-          <br/>
-          <a href="#top">Catref / Home</a>
-          <br/><br/>
+          {% include subject_spacer.html %}
       </div>
     </div>
     <!-- /.row -->

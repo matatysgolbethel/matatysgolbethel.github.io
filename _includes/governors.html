@@ -28,7 +28,7 @@ Parents will need to submit a petition in favor of holding a meeting.<br/><br/>
           <li class="text-left">There must be at least 25 school days left in the school year.</li>
         </ul>
         </div>
-        <br><br><a href="#top" onclick = $("#menu-close").click();><p color="white">Catref / Home</p></a><br><br>
+        <br><br>
         <table class="table">
           <tr><td class="text-left"><b>Cadeirydd y Llywodraethwyr / Chairperson of Governors</b></td><td class="text-left">{{ site.chairpersongovernors }}</td></tr>
           <tr><td class="text-left"><b>Clerc y Llywodraethwyr/Clerk of Governors</b></td></td><td class="text-left">{{ site.clerkgovernors }}</td></tr>
@@ -40,10 +40,10 @@ Parents will need to submit a petition in favor of holding a meeting.<br/><br/>
             <tr><td class="text-left">{{ governor.name }}</td><td class="text-left">{{ governor.appointed }}</td><td class="text-left">{{ governor.expires }}</td></tr>
           {% endfor %}
         </table>
-        <br><br>
-        <a href="#top" onclick = $("#menu-close").click();><p color="white">Catref / Home</p></a>
       </div>
+    {% include subject_spacer.html %}
     </div>
+
     <!-- /.row -->
   </div>
   <!-- /.container -->
