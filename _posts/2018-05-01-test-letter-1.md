@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Letter 1 to the parents"
+title:  "Methletics Winners"
 date:   2018-05-01 16:16:01
-categories: trip
+categories: notice
 ---
 
-Test Letter 1
+Year 6 did really well at mathletics

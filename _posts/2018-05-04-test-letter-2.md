@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "Letter 2 to the parents"
+title:  "School Uniform Letter"
 date:   2018-05-04 16:16:01
-categories: school uniform
+categories: letter
 ---
 
-Test Letter 2
+Dear Parent
+
+(this is a test)
+
+School uniforms should be worn at all times apart from saturday and sunday.
