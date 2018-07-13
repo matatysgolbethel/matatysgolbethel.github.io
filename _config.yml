@@ -94,6 +94,7 @@ governors:
   - { name: 'Mrs Nia Guillemin', appointed: 'Pennaeth/Headteacher', expires: '-/-' }
   - { name: 'Mr Dylan Parry', appointed: 'Dirprwy Bennaeth/Deputy Head', expires: '-/-' }
 
+
 # API settings
 google_api_key:
 
