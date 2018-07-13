@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Letter 2 to the parents"
-date:   2018-05-04 16:16:01 
+date:   2018-05-04 16:16:01 +0000
 categories: school uniform
 ---
 
